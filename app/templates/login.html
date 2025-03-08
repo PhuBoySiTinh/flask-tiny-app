@@ -1,0 +1,8 @@
+<form method="POST">
+    {{ form.hidden_tag() }}
+    <label>Username:</label> {{ form.username }}
+    <label>Password:</label> {{ form.password }}
+    <button type="submit">{{ form.submit.label }}</button>
+</form>
+
+<input type='password' name='password' placeholder='Mật khẩu' required>

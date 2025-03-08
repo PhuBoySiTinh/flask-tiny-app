@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>    
+    <meta charset="UTF-8">
+    <title>Đăng nhập & Đăng ký</title>
+</head>
+<body>
+    <h2>Đăng nhập</h2>
+    <input type="text" id="loginUsername" placeholder="Tên đăng nhập">
+    <input type="password" id="loginPassword" placeholder="Mật khẩu">
+    <button id="loginBtn">Đăng nhập</button>
+
+    <h2>Đăng ký</h2>
+    <input type="text" id="registerUsername" placeholder="Tên đăng nhập">
+    <input type="password" id="registerPassword" placeholder="Mật khẩu">
+    <button id="registerBtn">Đăng ký</button>
+
+    <p id="message"></p> <!-- Chỗ hiển thị thông báo -->
+</body>
+</html>
